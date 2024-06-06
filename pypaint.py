@@ -7,7 +7,7 @@ WIDTH, HEIGHT = 500, 500
 CENTER = WIDTH // 2
 WHITE = (255, 255, 255)
 
-class PaintGUI:
+class PaintGUI: # Class to hold the gui of the app
     def __init__(self):
         self.root = Tk()
         self.root.title("PyPaint")
