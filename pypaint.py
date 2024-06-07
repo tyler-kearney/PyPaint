@@ -20,7 +20,7 @@ class PaintGUI: # Class to hold the gui of the app
         self.cnv.bind("<B1-Motion>", self.paint)
         
         self.image = PIL.Image.new("RGB", (WIDTH, HEIGHT), WHITE)
-        self.draw = ImageDraw.Draw(self.root)
+        self.draw = ImageDraw.Draw(self.image)
         
         self.btn_frame = Frame(self.root)
         self.btn_frame.pack(fill=X)
